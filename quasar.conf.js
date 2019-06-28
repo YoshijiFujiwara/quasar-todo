@@ -48,7 +48,13 @@ module.exports = function (ctx) {
         'QList',
         'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+
+        // 以下、使用コンポーネントを追加
+        'QFooter',
+        'QTabs',
+        'QTab',
+        'QRouteTab'
       ],
 
       directives: [
